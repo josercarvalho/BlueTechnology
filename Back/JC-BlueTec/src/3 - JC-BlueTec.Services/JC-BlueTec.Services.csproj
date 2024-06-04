@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<RootNamespace>JC_BlueTec.Services</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\2 - JC-BlueTec.Domain\JC-BlueTec.Domain.csproj" />
+		<ProjectReference Include="..\4 - JC-BlueTec.Infra\JC-BlueTec.Infra.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Mappings\" />
+	</ItemGroup>
+
+
+</Project>
